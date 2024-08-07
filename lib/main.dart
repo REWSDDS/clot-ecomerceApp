@@ -49,6 +49,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ! Fundament
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Clot',
@@ -59,3 +60,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+// ! dfsfds

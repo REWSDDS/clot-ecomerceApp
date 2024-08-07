@@ -32,6 +32,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       floatingActionButton: FloatingActionButton(
         onPressed: () => Navigator.push(context,
             CupertinoPageRoute(builder: (_) => const PaymentAddScreen())),
